@@ -18,6 +18,8 @@ public class testTest {
 
         assertNotNull("not null", myTest.getURLContent("http://www.baidu.com/", "gb2312"));
 
+        assertNotNull("not null", myTest.getURLContent("http://www.google.co.uk/", "gb2312"));
+
     }
 
 
