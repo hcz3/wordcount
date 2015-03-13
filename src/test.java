@@ -36,14 +36,14 @@ public class test {
         return content.toString();
     }
 
-    public static void subCounter(String str1, String str2) {
+    public static int subCounter(String str1, String str2) {
         int counter = 0;
         for (int i = 0; i <= str1.length() - str2.length(); i++) {
             if (str1.substring(i, i + str2.length()).equalsIgnoreCase(str2)) {
                 counter++;
             }
         }
-        System.out.println("The number of "+str2+" is " + counter);
+        return counter;
 
     }
 
@@ -59,6 +59,12 @@ public class test {
     }
 
     public static void main(String[] args) {
+
+        String asciiRegex = "^\\p{Alpha}+$";
+        if(!args[1].matches(asciiRegex)) {
+            System.out.println("The searched keywords should be an English word");
+            System.exit(0);
+        }
         String content;
         //String url = "http://baike.baidu.com/subview/29/12654100.htm";
         int start;
@@ -74,7 +80,7 @@ public class test {
         content = content.substring(start, end);
         content = outTag(content);
         //System.out.println(content);
-        subCounter(content, args[1]);
+        System.out.println("The number of "+args[1]+" is "+subCounter(content, args[1]));
     }
 }
 
