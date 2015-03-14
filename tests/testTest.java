@@ -50,7 +50,7 @@ public class testTest {
 
     @Test
     public void testSubCounter() throws Exception {
-        //assertEquals("equals", "0", myTest.subCounter(myTest.getURLContent("http://www.baidu.com/", "gb2312"), "java"));
+        //assertEquals("equals", "0", String.valueOf(myTest.subCounter(“j a v a”, "java")));
         assertEquals("equals", "0", String.valueOf(myTest.subCounter
                 (myTest.outTag(myTest.getURLContent("http://www.google.com/", "gb2312")), "java")));
 

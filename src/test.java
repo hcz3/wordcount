@@ -1,7 +1,5 @@
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -49,6 +47,8 @@ public class test {
 
     public static String outTag(String s) {
         s = s.replaceAll("<script[\\s\\S]*?</script>", "");
+
+        // try to judge the display tag but not work
         //s = s.replaceAll("display:none[\\s\\S]*?>[\\s\\S]*?<[\\s\\S]*?>", "");
         //s = s.replaceAll("<tr style=\"display: none;\">[\\s\\S]*?</tr>", "");
         s = s.replaceAll("class=\"printfooter\"[\\s\\S]*?</div>", "");
@@ -66,10 +66,8 @@ public class test {
             System.exit(0);
         }
         String content;
-        //String url = "http://baike.baidu.com/subview/29/12654100.htm";
         int start;
         int end;
-        //String url="http://en.wikipedia.org/wiki/Java_(programming_language) ";
         content = getURLContent(args[0], "gb2312");
 
         //System.out.println(content);
