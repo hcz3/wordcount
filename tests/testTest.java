@@ -1,5 +1,9 @@
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
+
+import java.net.MalformedURLException;
 
 import static org.junit.Assert.*;
 
@@ -22,9 +26,26 @@ public class testTest {
 
     }
 
+//    @Test(expected = MalformedURLException.class)
+//    public void URLIsMalformedThrowsException() throws MalformedURLException {
+//        myTest.getURLContent("www.baidu.com","gb2312");
+//    }
+
+
+    @Rule
+    public ExpectedException expectedEx = ExpectedException.none();
+
+    @Test
+    public void URLIsMalformedThrowsException() throws MalformedURLException {
+        myTest.getURLContent("www.baidu.com","gb2312");
+        expectedEx.expect(MalformedURLException.class);
+        expectedEx.expectMessage("no protocol");
+
+    }
 
     @Test
     public void testOutTag() throws Exception {
+
 
     }
 
