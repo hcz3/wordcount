@@ -49,8 +49,8 @@ public class test {
         s = s.replaceAll("<script[\\s\\S]*?</script>", "");
 
         // try to judge the display tag but not work
-        //s = s.replaceAll("display:none[\\s\\S]*?>[\\s\\S]*?<[\\s\\S]*?>", "");
-        //s = s.replaceAll("<tr style=\"display: none;\">[\\s\\S]*?</tr>", "");
+        // s = s.replaceAll("display:none[\\s\\S]*?>[\\s\\S]*?<[\\s\\S]*?>", "");
+        // s = s.replaceAll("<tr style=\"display: none;\">[\\s\\S]*?</tr>", "");
         s = s.replaceAll("class=\"printfooter\"[\\s\\S]*?</div>", "");
 
         s = s.replaceAll("<.*?>", "");
@@ -70,7 +70,8 @@ public class test {
         int end;
         content = getURLContent(args[0], "gb2312");
 
-        //System.out.println(content);
+        // leave here for observation
+        // System.out.println(content);
         start = content.indexOf("<body");
         end = content.indexOf("</body");
         System.out.println(start);

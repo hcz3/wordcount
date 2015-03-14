@@ -46,11 +46,16 @@ public class testTest {
     @Test
     public void testOutTag() throws Exception {
 
+        // Expected: 5<6, 7>6 Actual: 56
+        assertEquals("remove tags", "5<6, 7>6", myTest.outTag("<br>5<6, 7>6</br>"));
+
     }
 
     @Test
     public void testSubCounter() throws Exception {
-        //assertEquals("equals", "0", String.valueOf(myTest.subCounter(“j a v a”, "java")));
+        assertEquals("equals", "0", String.valueOf(myTest.subCounter("j a v a ", "java")));
+        assertEquals("equals", "1", String.valueOf(myTest.subCounter("javascript", "java")));
+
         assertEquals("equals", "0", String.valueOf(myTest.subCounter
                 (myTest.outTag(myTest.getURLContent("http://www.google.com/", "gb2312")), "java")));
 
