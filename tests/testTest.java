@@ -3,6 +3,9 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.net.MalformedURLException;
 
 import static org.junit.Assert.*;
@@ -26,11 +29,6 @@ public class testTest {
 
     }
 
-//    @Test(expected = MalformedURLException.class)
-//    public void URLIsMalformedThrowsException() throws MalformedURLException {
-//        myTest.getURLContent("www.baidu.com","gb2312");
-//    }
-
 
     @Rule
     public ExpectedException expectedEx = ExpectedException.none();
@@ -51,10 +49,31 @@ public class testTest {
 
     }
 
+    // Add function file reader to test function with files
+    public static String fileReader(String fileName) throws Exception{
+        File file = new File(fileName);
+
+        StringBuilder sb = new StringBuilder();
+        String s;
+        BufferedReader br = new BufferedReader(new FileReader(file));
+
+        while( (s = br.readLine()) != null) {
+            sb.append(s + "\n");
+        }
+
+        br.close();
+        return sb.toString();
+    }
+
     @Test
     public void testSubCounter() throws Exception {
         assertEquals("equals", "0", String.valueOf(myTest.subCounter("j a v a ", "java")));
-        assertEquals("equals", "1", String.valueOf(myTest.subCounter("javascript", "java")));
+
+
+        //Test src1.txt and src2.txt
+        assertEquals("equals", "4", String.valueOf(myTest.subCounter(fileReader("/Users/hczhang/Documents/workspace/demo1/word/tests/src1.txt"), "java")));
+
+        assertEquals("equals", "6", String.valueOf(myTest.subCounter(fileReader("/Users/hczhang/Documents/workspace/demo1/word/tests/src2.txt"), "java")));
 
         assertEquals("equals", "0", String.valueOf(myTest.subCounter
                 (myTest.outTag(myTest.getURLContent("http://www.google.com/", "gb2312")), "java")));

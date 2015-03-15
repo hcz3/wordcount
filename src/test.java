@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -34,11 +32,19 @@ public class test {
         return content.toString();
     }
 
+
+
+
+
     public static int subCounter(String str1, String str2) {
         int counter = 0;
         for (int i = 0; i <= str1.length() - str2.length(); i++) {
             if (str1.substring(i, i + str2.length()).equalsIgnoreCase(str2)) {
-                counter++;
+                if(!str1.substring(i + str2.length() + 1).matches("[a-zA-Z]*")) {
+                    counter++;
+                } else {
+                    break;
+                }
             }
         }
         return counter;
