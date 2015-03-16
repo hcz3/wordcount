@@ -2,6 +2,8 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**
@@ -34,8 +36,6 @@ public class test {
 
 
 
-
-
     public static int subCounter(String str1, String str2) {
         int counter = 0;
         for (int i = 0; i <= str1.length() - str2.length(); i++) {
@@ -52,14 +52,33 @@ public class test {
     }
 
     public static String outTag(String s) {
-        s = s.replaceAll("<script[\\s\\S]*?</script>", "");
-
-        // try to judge the display tag but not work
-        // s = s.replaceAll("display:none[\\s\\S]*?>[\\s\\S]*?<[\\s\\S]*?>", "");
-        // s = s.replaceAll("<tr style=\"display: none;\">[\\s\\S]*?</tr>", "");
+        s = s.replaceAll("<script>[\\s\\S]*?</script>", "");
         s = s.replaceAll("class=\"printfooter\"[\\s\\S]*?</div>", "");
+        s = s.replaceAll("<[^>]+>", "");
+        s = s.replaceAll("java.util.regex.Matcher","");
 
-        s = s.replaceAll("<.*?>", "");
+        return s;
+    }
+
+
+    public static String hideMatcher(String s) {
+        String dist = null;
+        StringBuffer sb = new StringBuffer();
+        Pattern p = Pattern.compile("<table[^>]+autocollapse[^>]+>[\\s\\S]*?</table>");
+        Matcher m = p.matcher(s);
+        while(m.find()) {
+            sb.append(m.toMatchResult());
+
+            dist = sb.toString();
+        }
+        return dist;
+    }
+
+    public static String findHide(String s) {
+        s = s.replaceAll("<script>[\\s\\S]*?</script>", "");
+
+        s = s.replaceAll("<table[^>]+autocollapse[^>]+>[\\s\\S]*?</table>", "");
+        s = s.replaceAll("<[^>]+>", "");
 
         return s;
     }
@@ -83,8 +102,9 @@ public class test {
         System.out.println(start);
         System.out.println(end);
         content = content.substring(start, end);
-        content = outTag(content);
-        //System.out.println(content);
+        content = findHide(content);
+        //content = outTag(content);
+        System.out.println(content);
         System.out.println("The number of "+args[1]+" is "+subCounter(content, args[1]));
     }
 }
