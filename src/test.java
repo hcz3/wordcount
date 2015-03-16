@@ -74,14 +74,6 @@ public class test {
         return dist;
     }
 
-    public static String findHide(String s) {
-        s = s.replaceAll("<script>[\\s\\S]*?</script>", "");
-
-        s = s.replaceAll("<table[^>]+autocollapse[^>]+>[\\s\\S]*?</table>", "");
-        s = s.replaceAll("<[^>]+>", "");
-
-        return s;
-    }
 
     public static void main(String[] args) {
 
@@ -90,21 +82,20 @@ public class test {
             System.out.println("The searched keywords should be an English word");
             System.exit(0);
         }
-        String content;
+
+        String content, hideContent;
         int start;
         int end;
         content = getURLContent(args[0], "gb2312");
-
-        // leave here for observation
-        // System.out.println(content);
         start = content.indexOf("<body");
         end = content.indexOf("</body");
         System.out.println(start);
         System.out.println(end);
         content = content.substring(start, end);
-        content = findHide(content);
-        //content = outTag(content);
-        System.out.println(content);
+        hideContent = hideMatcher(content);
+        content = outTag(content);
+        hideContent = outTag(hideContent);
+        System.out.println("In hidden blocks, the number of "+args[1]+" is "+subCounter(hideContent, args[1]));
         System.out.println("The number of "+args[1]+" is "+subCounter(content, args[1]));
     }
 }

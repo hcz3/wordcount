@@ -1,0 +1,149 @@
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="3">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Java_(software_platform)" title="Template:Java (software platform)"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Java_(software_platform)" title="Template talk:Java (software platform)"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Java_(software_platform)&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%"><a href="/wiki/Java_(software_platform)" title="Java (software platform)">Java</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Java platforms</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Java language</strong></li>
+<li><a href="/wiki/Java_virtual_machine" title="Java virtual machine">JVM</a></li>
+<li><a href="/wiki/Java_Platform,_Micro_Edition" title="Java Platform, Micro Edition">Micro Edition</a></li>
+<li><a href="/wiki/Java_Platform,_Standard_Edition" title="Java Platform, Standard Edition">Standard Edition</a></li>
+<li><a href="/wiki/Java_Platform,_Enterprise_Edition" title="Java Platform, Enterprise Edition">Enterprise Edition</a></li>
+<li><a href="/wiki/Java_Card" title="Java Card">Java Card</a></li>
+<li><a href="/wiki/Android_software_development#SDK" title="Android software development">Android SDK</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" rowspan="13" style="width:0%;padding:0px 0px 0px 2px">
+<div><a href="/wiki/File:Wave.svg" class="image"><img alt="Wave.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/75px-Wave.svg.png" width="75" height="135" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/113px-Wave.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/150px-Wave.svg.png 2x" data-file-width="226" data-file-height="407" /></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Oracle technologies</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Squawk_virtual_machine" title="Squawk virtual machine">Squawk</a></li>
+<li><a href="/wiki/Java_Development_Kit" title="Java Development Kit">Java Development Kit</a></li>
+<li><a href="/wiki/OpenJDK" title="OpenJDK">OpenJDK</a></li>
+<li><a href="/wiki/Java_virtual_machine" title="Java virtual machine">Java virtual machine</a></li>
+<li><a href="/wiki/JavaFX" title="JavaFX">JavaFX</a></li>
+<li><a href="/wiki/Maxine_Virtual_Machine" title="Maxine Virtual Machine">Maxine VM</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Platform technologies</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Java_applet" title="Java applet">Applets</a></li>
+<li><a href="/wiki/Java_servlet" title="Java servlet">Servlets</a></li>
+<li><a href="/wiki/MIDlet" title="MIDlet">MIDlets</a></li>
+<li><a href="/wiki/JavaServer_Pages" title="JavaServer Pages">JSP</a></li>
+<li><a href="/wiki/Java_Web_Start" title="Java Web Start">Web Start (JNLP)</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Major third-party technologies</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/JRockit" title="JRockit">JRockit</a></li>
+<li><a href="/wiki/GNU_Classpath" title="GNU Classpath">GNU Classpath</a></li>
+<li><a href="/wiki/Kaffe" title="Kaffe">Kaffe</a></li>
+<li><a href="/wiki/TopLink" title="TopLink">TopLink</a></li>
+<li><a href="/wiki/Apache_Harmony" title="Apache Harmony">Apache Harmony</a></li>
+<li><a href="/wiki/Apache_Struts" title="Apache Struts">Apache Struts</a></li>
+<li><a href="/wiki/Spring_Framework" title="Spring Framework">Spring Framework</a></li>
+<li><a href="/wiki/Hibernate_(Java)" title="Hibernate (Java)">Hibernate</a></li>
+<li><a href="/wiki/WildFly" title="WildFly">JBoss application server</a></li>
+<li><a href="/wiki/Apache_Tapestry" title="Apache Tapestry">Tapestry</a></li>
+<li><a href="/wiki/Jazelle" title="Jazelle">Jazelle</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">History</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Java_version_history" title="Java version history">Java version history</a></li>
+<li><a href="/wiki/Java_Community_Process" title="Java Community Process">Java Community Process</a></li>
+<li><a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a></li>
+<li><a href="/wiki/Free_Java_implementations" title="Free Java implementations">Free Java implementations</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Major programming languages</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/BeanShell" title="BeanShell">BeanShell</a></li>
+<li><a href="/wiki/Clojure" title="Clojure">Clojure</a></li>
+<li><a href="/wiki/Groovy_(programming_language)" title="Groovy (programming language)">Groovy</a></li>
+<li><a href="/wiki/Oxygene_(programming_language)" title="Oxygene (programming language)">Oxygene</a></li>
+<li><a href="/wiki/Tcl/Java" title="Tcl/Java">Java Tcl</a></li>
+<li><a href="/wiki/JRuby" title="JRuby">JRuby</a></li>
+<li><a href="/wiki/Jython" title="Jython">Jython</a></li>
+<li><a href="/wiki/Processing_(programming_language)" title="Processing (programming language)">Processing</a></li>
+<li><a href="/wiki/Rhino_(JavaScript_engine)" title="Rhino (JavaScript engine)">Rhino</a></li>
+<li><a href="/wiki/Scala_(programming_language)" title="Scala (programming language)">Scala</a></li>
+<li><a href="/wiki/List_of_JVM_languages" title="List of JVM languages">more…</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Java conferences</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/JavaOne" title="JavaOne">JavaOne</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

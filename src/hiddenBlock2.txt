@@ -1,0 +1,173 @@
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Sun_Microsystems" title="Template:Sun Microsystems"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Sun_Microsystems" title="Template talk:Sun Microsystems"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Sun_Microsystems&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%"><a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a> <small style="font-size:85%;">(acquired by <a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle Corporation</a>, 2010)</small></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">People</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Bill_Joy" title="Bill Joy">Bill Joy</a></li>
+<li><a href="/wiki/Andy_Bechtolsheim" title="Andy Bechtolsheim">Andy Bechtolsheim</a></li>
+<li><a href="/wiki/Scott_McNealy" title="Scott McNealy">Scott McNealy</a></li>
+<li><a href="/wiki/Vinod_Khosla" title="Vinod Khosla">Vinod Khosla</a></li>
+<li><a href="/wiki/List_of_Sun_Microsystems_employees" title="List of Sun Microsystems employees">List of notable employees</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Hardware</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sun-1" title="Sun-1">Sun-1</a></li>
+<li><a href="/wiki/Sun-2" title="Sun-2">Sun-2</a></li>
+<li><a href="/wiki/Sun-3" title="Sun-3">Sun-3</a></li>
+<li><a href="/wiki/Sun386i" title="Sun386i">Sun386i</a></li>
+<li><a href="/wiki/Sun-4" title="Sun-4">Sun-4</a></li>
+<li><a href="/wiki/SPARCstation" title="SPARCstation">SPARCstation</a></li>
+<li><a href="/wiki/Sun_Netra" title="Sun Netra">Netra</a></li>
+<li><a href="/wiki/Sun_Ultra_series" title="Sun Ultra series">Ultra</a></li>
+<li><a href="/wiki/Sun_Enterprise" title="Sun Enterprise">Enterprise</a></li>
+<li><a href="/wiki/Sun_Blade" title="Sun Blade">Sun Blade</a></li>
+<li><a href="/wiki/Sun_Fire" title="Sun Fire">Sun Fire</a></li>
+<li><a href="/wiki/SPARC_Enterprise" title="SPARC Enterprise">SPARC Enterprise</a></li>
+<li><a href="/wiki/SPARC" title="SPARC">SPARC</a></li>
+<li><a href="/wiki/JavaStation" title="JavaStation">JavaStation</a></li>
+<li><a href="/wiki/Sun_Ray" title="Sun Ray">Sun Ray</a></li>
+<li><a href="/wiki/Sun_Modular_Datacenter" title="Sun Modular Datacenter">Sun Modular Datacenter</a></li>
+<li><a href="/wiki/Category:Sun_Microsystems_hardware" title="Category:Sun Microsystems hardware"><i>more...</i></a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Software</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/SunOS" title="SunOS">SunOS</a></li>
+<li><a href="/wiki/Solaris_(operating_system)" title="Solaris (operating system)">Solaris</a></li>
+<li><a href="/wiki/Network_Information_Service" title="Network Information Service">NIS</a> (<a href="/wiki/NIS%2B" title="NIS+">+</a>)</li>
+<li><a href="/wiki/Network_File_System_(protocol)" title="Network File System (protocol)" class="mw-redirect">NFS</a></li>
+<li><a href="/wiki/ZFS" title="ZFS">ZFS</a></li>
+<li><a href="/wiki/SunView" title="SunView">SunView</a></li>
+<li><a href="/wiki/NeWS" title="NeWS">NeWS</a></li>
+<li><a href="/wiki/OpenWindows" title="OpenWindows">OpenWindows</a></li>
+<li><a href="/wiki/Java_Desktop_System" title="Java Desktop System">Java Desktop System</a></li>
+<li><a href="/wiki/Sun_Studio_(software)" title="Sun Studio (software)" class="mw-redirect">Sun Studio</a></li>
+<li><a href="/wiki/Java_(Sun)" title="Java (Sun)" class="mw-redirect">Java</a></li>
+<li><a href="/wiki/StarOffice" title="StarOffice">StarOffice</a></li>
+<li><a href="/wiki/IPlanet" title="IPlanet">iPlanet</a>/<a href="/wiki/Sun_ONE" title="Sun ONE">Sun ONE</a>/<a href="/wiki/Java_Enterprise_System" title="Java Enterprise System" class="mw-redirect">Java Enterprise System</a></li>
+<li><a href="/wiki/Sun_Secure_Global_Desktop" title="Sun Secure Global Desktop" class="mw-redirect">Sun Secure Global Desktop</a></li>
+<li><a href="/wiki/MySQL" title="MySQL">MySQL</a></li>
+<li><a href="/wiki/Sun_xVM" title="Sun xVM">Sun xVM</a></li>
+<li><a href="/wiki/GlassFish" title="GlassFish">GlassFish</a></li>
+<li><a href="/wiki/Category:Sun_Microsystems_software" title="Category:Sun Microsystems software"><i>more...</i></a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Storage</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/StorageTek" title="StorageTek" class="mw-redirect">StorageTek</a></li>
+<li><a href="/wiki/Sun_Open_Storage" title="Sun Open Storage">Sun Open Storage</a></li>
+<li><a href="/wiki/QFS" title="QFS">QFS</a></li>
+<li><a href="/wiki/ZFS" title="ZFS">ZFS</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">High-performance computing</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sun_Cloud" title="Sun Cloud">Sun Cloud</a></li>
+<li><a href="/wiki/Sun_Constellation_System" title="Sun Constellation System">Sun Constellation System</a></li>
+<li><a href="/wiki/Sun_Visualization_System" title="Sun Visualization System">Sun Visualization System</a></li>
+<li><a href="/wiki/Oracle_Grid_Engine" title="Oracle Grid Engine">Sun Grid Engine</a></li>
+<li><a href="/wiki/Lustre_(file_system)" title="Lustre (file system)">Lustre</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Research</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sun_Microsystems_Laboratories" title="Sun Microsystems Laboratories">Sun Labs</a></li>
+<li><a href="/wiki/PicoJava" title="PicoJava">picoJava</a></li>
+<li><a href="/wiki/Fortress_(programming_language)" title="Fortress (programming language)">Fortress</a></li>
+<li><a href="/wiki/Project_Looking_Glass" title="Project Looking Glass">Project Looking Glass</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Education</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sun_Certified_Professional" title="Sun Certified Professional" class="mw-redirect">SCPs</a></li>
+<li><a href="/wiki/BlueJ" title="BlueJ">BlueJ</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Community</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Common_Development_and_Distribution_License" title="Common Development and Distribution License">Common Development and Distribution License</a></li>
+<li><a href="/wiki/Java_Community_Process" title="Java Community Process">Java Community Process</a></li>
+<li><a href="/wiki/NetBeans" title="NetBeans">NetBeans</a></li>
+<li><a href="/wiki/OpenOffice.org" title="OpenOffice.org">OpenOffice.org</a></li>
+<li><a href="/wiki/OpenSolaris" title="OpenSolaris">OpenSolaris</a></li>
+<li><a href="/wiki/OpenSPARC" title="OpenSPARC">OpenSPARC</a></li>
+<li><a href="/wiki/OpenJDK" title="OpenJDK">OpenJDK</a></li>
+<li><a href="/wiki/Open_Source_University_Meetup" title="Open Source University Meetup">OSUM</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>

@@ -1,0 +1,605 @@
+java java
+
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="3">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Java_(software_platform)" title="Template:Java (software platform)"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Java_(software_platform)" title="Template talk:Java (software platform)"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Java_(software_platform)&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%"><a href="/wiki/Java_(software_platform)" title="Java (software platform)">Java</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Java platforms</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Java language</strong></li>
+<li><a href="/wiki/Java_virtual_machine" title="Java virtual machine">JVM</a></li>
+<li><a href="/wiki/Java_Platform,_Micro_Edition" title="Java Platform, Micro Edition">Micro Edition</a></li>
+<li><a href="/wiki/Java_Platform,_Standard_Edition" title="Java Platform, Standard Edition">Standard Edition</a></li>
+<li><a href="/wiki/Java_Platform,_Enterprise_Edition" title="Java Platform, Enterprise Edition">Enterprise Edition</a></li>
+<li><a href="/wiki/Java_Card" title="Java Card">Java Card</a></li>
+<li><a href="/wiki/Android_software_development#SDK" title="Android software development">Android SDK</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" rowspan="13" style="width:0%;padding:0px 0px 0px 2px">
+<div><a href="/wiki/File:Wave.svg" class="image"><img alt="Wave.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/75px-Wave.svg.png" width="75" height="135" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/113px-Wave.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/150px-Wave.svg.png 2x" data-file-width="226" data-file-height="407" /></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Oracle technologies</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Squawk_virtual_machine" title="Squawk virtual machine">Squawk</a></li>
+<li><a href="/wiki/Java_Development_Kit" title="Java Development Kit">Java Development Kit</a></li>
+<li><a href="/wiki/OpenJDK" title="OpenJDK">OpenJDK</a></li>
+<li><a href="/wiki/Java_virtual_machine" title="Java virtual machine">Java virtual machine</a></li>
+<li><a href="/wiki/JavaFX" title="JavaFX">JavaFX</a></li>
+<li><a href="/wiki/Maxine_Virtual_Machine" title="Maxine Virtual Machine">Maxine VM</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Platform technologies</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Java_applet" title="Java applet">Applets</a></li>
+<li><a href="/wiki/Java_servlet" title="Java servlet">Servlets</a></li>
+<li><a href="/wiki/MIDlet" title="MIDlet">MIDlets</a></li>
+<li><a href="/wiki/JavaServer_Pages" title="JavaServer Pages">JSP</a></li>
+<li><a href="/wiki/Java_Web_Start" title="Java Web Start">Web Start (JNLP)</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Major third-party technologies</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/JRockit" title="JRockit">JRockit</a></li>
+<li><a href="/wiki/GNU_Classpath" title="GNU Classpath">GNU Classpath</a></li>
+<li><a href="/wiki/Kaffe" title="Kaffe">Kaffe</a></li>
+<li><a href="/wiki/TopLink" title="TopLink">TopLink</a></li>
+<li><a href="/wiki/Apache_Harmony" title="Apache Harmony">Apache Harmony</a></li>
+<li><a href="/wiki/Apache_Struts" title="Apache Struts">Apache Struts</a></li>
+<li><a href="/wiki/Spring_Framework" title="Spring Framework">Spring Framework</a></li>
+<li><a href="/wiki/Hibernate_(Java)" title="Hibernate (Java)">Hibernate</a></li>
+<li><a href="/wiki/WildFly" title="WildFly">JBoss application server</a></li>
+<li><a href="/wiki/Apache_Tapestry" title="Apache Tapestry">Tapestry</a></li>
+<li><a href="/wiki/Jazelle" title="Jazelle">Jazelle</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">History</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Java_version_history" title="Java version history">Java version history</a></li>
+<li><a href="/wiki/Java_Community_Process" title="Java Community Process">Java Community Process</a></li>
+<li><a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a></li>
+<li><a href="/wiki/Free_Java_implementations" title="Free Java implementations">Free Java implementations</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Major programming languages</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/BeanShell" title="BeanShell">BeanShell</a></li>
+<li><a href="/wiki/Clojure" title="Clojure">Clojure</a></li>
+<li><a href="/wiki/Groovy_(programming_language)" title="Groovy (programming language)">Groovy</a></li>
+<li><a href="/wiki/Oxygene_(programming_language)" title="Oxygene (programming language)">Oxygene</a></li>
+<li><a href="/wiki/Tcl/Java" title="Tcl/Java">Java Tcl</a></li>
+<li><a href="/wiki/JRuby" title="JRuby">JRuby</a></li>
+<li><a href="/wiki/Jython" title="Jython">Jython</a></li>
+<li><a href="/wiki/Processing_(programming_language)" title="Processing (programming language)">Processing</a></li>
+<li><a href="/wiki/Rhino_(JavaScript_engine)" title="Rhino (JavaScript engine)">Rhino</a></li>
+<li><a href="/wiki/Scala_(programming_language)" title="Scala (programming language)">Scala</a></li>
+<li><a href="/wiki/List_of_JVM_languages" title="List of JVM languages">more…</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Java conferences</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/JavaOne" title="JavaOne">JavaOne</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Sun_Microsystems" title="Template:Sun Microsystems"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Sun_Microsystems" title="Template talk:Sun Microsystems"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Sun_Microsystems&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%"><a href="/wiki/Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a> <small style="font-size:85%;">(acquired by <a href="/wiki/Oracle_Corporation" title="Oracle Corporation">Oracle Corporation</a>, 2010)</small></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">People</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Bill_Joy" title="Bill Joy">Bill Joy</a></li>
+<li><a href="/wiki/Andy_Bechtolsheim" title="Andy Bechtolsheim">Andy Bechtolsheim</a></li>
+<li><a href="/wiki/Scott_McNealy" title="Scott McNealy">Scott McNealy</a></li>
+<li><a href="/wiki/Vinod_Khosla" title="Vinod Khosla">Vinod Khosla</a></li>
+<li><a href="/wiki/List_of_Sun_Microsystems_employees" title="List of Sun Microsystems employees">List of notable employees</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Hardware</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sun-1" title="Sun-1">Sun-1</a></li>
+<li><a href="/wiki/Sun-2" title="Sun-2">Sun-2</a></li>
+<li><a href="/wiki/Sun-3" title="Sun-3">Sun-3</a></li>
+<li><a href="/wiki/Sun386i" title="Sun386i">Sun386i</a></li>
+<li><a href="/wiki/Sun-4" title="Sun-4">Sun-4</a></li>
+<li><a href="/wiki/SPARCstation" title="SPARCstation">SPARCstation</a></li>
+<li><a href="/wiki/Sun_Netra" title="Sun Netra">Netra</a></li>
+<li><a href="/wiki/Sun_Ultra_series" title="Sun Ultra series">Ultra</a></li>
+<li><a href="/wiki/Sun_Enterprise" title="Sun Enterprise">Enterprise</a></li>
+<li><a href="/wiki/Sun_Blade" title="Sun Blade">Sun Blade</a></li>
+<li><a href="/wiki/Sun_Fire" title="Sun Fire">Sun Fire</a></li>
+<li><a href="/wiki/SPARC_Enterprise" title="SPARC Enterprise">SPARC Enterprise</a></li>
+<li><a href="/wiki/SPARC" title="SPARC">SPARC</a></li>
+<li><a href="/wiki/JavaStation" title="JavaStation">JavaStation</a></li>
+<li><a href="/wiki/Sun_Ray" title="Sun Ray">Sun Ray</a></li>
+<li><a href="/wiki/Sun_Modular_Datacenter" title="Sun Modular Datacenter">Sun Modular Datacenter</a></li>
+<li><a href="/wiki/Category:Sun_Microsystems_hardware" title="Category:Sun Microsystems hardware"><i>more...</i></a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Software</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/SunOS" title="SunOS">SunOS</a></li>
+<li><a href="/wiki/Solaris_(operating_system)" title="Solaris (operating system)">Solaris</a></li>
+<li><a href="/wiki/Network_Information_Service" title="Network Information Service">NIS</a> (<a href="/wiki/NIS%2B" title="NIS+">+</a>)</li>
+<li><a href="/wiki/Network_File_System_(protocol)" title="Network File System (protocol)" class="mw-redirect">NFS</a></li>
+<li><a href="/wiki/ZFS" title="ZFS">ZFS</a></li>
+<li><a href="/wiki/SunView" title="SunView">SunView</a></li>
+<li><a href="/wiki/NeWS" title="NeWS">NeWS</a></li>
+<li><a href="/wiki/OpenWindows" title="OpenWindows">OpenWindows</a></li>
+<li><a href="/wiki/Java_Desktop_System" title="Java Desktop System">Java Desktop System</a></li>
+<li><a href="/wiki/Sun_Studio_(software)" title="Sun Studio (software)" class="mw-redirect">Sun Studio</a></li>
+<li><a href="/wiki/Java_(Sun)" title="Java (Sun)" class="mw-redirect">Java</a></li>
+<li><a href="/wiki/StarOffice" title="StarOffice">StarOffice</a></li>
+<li><a href="/wiki/IPlanet" title="IPlanet">iPlanet</a>/<a href="/wiki/Sun_ONE" title="Sun ONE">Sun ONE</a>/<a href="/wiki/Java_Enterprise_System" title="Java Enterprise System" class="mw-redirect">Java Enterprise System</a></li>
+<li><a href="/wiki/Sun_Secure_Global_Desktop" title="Sun Secure Global Desktop" class="mw-redirect">Sun Secure Global Desktop</a></li>
+<li><a href="/wiki/MySQL" title="MySQL">MySQL</a></li>
+<li><a href="/wiki/Sun_xVM" title="Sun xVM">Sun xVM</a></li>
+<li><a href="/wiki/GlassFish" title="GlassFish">GlassFish</a></li>
+<li><a href="/wiki/Category:Sun_Microsystems_software" title="Category:Sun Microsystems software"><i>more...</i></a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Storage</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/StorageTek" title="StorageTek" class="mw-redirect">StorageTek</a></li>
+<li><a href="/wiki/Sun_Open_Storage" title="Sun Open Storage">Sun Open Storage</a></li>
+<li><a href="/wiki/QFS" title="QFS">QFS</a></li>
+<li><a href="/wiki/ZFS" title="ZFS">ZFS</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">High-performance computing</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sun_Cloud" title="Sun Cloud">Sun Cloud</a></li>
+<li><a href="/wiki/Sun_Constellation_System" title="Sun Constellation System">Sun Constellation System</a></li>
+<li><a href="/wiki/Sun_Visualization_System" title="Sun Visualization System">Sun Visualization System</a></li>
+<li><a href="/wiki/Oracle_Grid_Engine" title="Oracle Grid Engine">Sun Grid Engine</a></li>
+<li><a href="/wiki/Lustre_(file_system)" title="Lustre (file system)">Lustre</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Research</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sun_Microsystems_Laboratories" title="Sun Microsystems Laboratories">Sun Labs</a></li>
+<li><a href="/wiki/PicoJava" title="PicoJava">picoJava</a></li>
+<li><a href="/wiki/Fortress_(programming_language)" title="Fortress (programming language)">Fortress</a></li>
+<li><a href="/wiki/Project_Looking_Glass" title="Project Looking Glass">Project Looking Glass</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Education</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sun_Certified_Professional" title="Sun Certified Professional" class="mw-redirect">SCPs</a></li>
+<li><a href="/wiki/BlueJ" title="BlueJ">BlueJ</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Community</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Common_Development_and_Distribution_License" title="Common Development and Distribution License">Common Development and Distribution License</a></li>
+<li><a href="/wiki/Java_Community_Process" title="Java Community Process">Java Community Process</a></li>
+<li><a href="/wiki/NetBeans" title="NetBeans">NetBeans</a></li>
+<li><a href="/wiki/OpenOffice.org" title="OpenOffice.org">OpenOffice.org</a></li>
+<li><a href="/wiki/OpenSolaris" title="OpenSolaris">OpenSolaris</a></li>
+<li><a href="/wiki/OpenSPARC" title="OpenSPARC">OpenSPARC</a></li>
+<li><a href="/wiki/OpenJDK" title="OpenJDK">OpenJDK</a></li>
+<li><a href="/wiki/Open_Source_University_Meetup" title="Open Source University Meetup">OSUM</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:FOSS" title="Template:FOSS"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:FOSS" title="Template talk:FOSS"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:FOSS&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%"><a href="/wiki/Free_and_open-source_software" title="Free and open-source software">Free and open-source software</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">General</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Alternative_terms_for_free_software" title="Alternative terms for free software">Alternative terms for free software</a></li>
+<li><a href="/wiki/Comparison_of_open_source_and_closed_source" title="Comparison of open source and closed source">Comparison of open source and closed source</a></li>
+<li><a href="/wiki/Comparison_of_open-source_software_hosting_facilities" title="Comparison of open-source software hosting facilities" class="mw-redirect">Comparison of open-source software hosting facilities</a></li>
+<li><a href="/wiki/List_of_formerly_proprietary_software" title="List of formerly proprietary software">Formerly proprietary software</a></li>
+<li><a href="/wiki/List_of_free_and_open-source_Android_applications" title="List of free and open-source Android applications">Free and open-source Android applications</a></li>
+<li><a href="/wiki/List_of_free_and_open-source_software_packages" title="List of free and open-source software packages">Free and open-source software packages</a></li>
+<li><a href="/wiki/Free_software" title="Free software">Free software</a></li>
+<li><a href="/wiki/List_of_free-software_events" title="List of free-software events">Free software events</a></li>
+<li><a href="/wiki/Free_software_movement" title="Free software movement">Free software movement</a></li>
+<li><a href="/wiki/List_of_free_software_project_directories" title="List of free software project directories">Free software project directories</a></li>
+<li><a href="/wiki/List_of_free_software_web_applications" title="List of free software web applications">Free software web applications</a></li>
+<li><a href="/wiki/Gratis_versus_libre" title="Gratis versus libre">Gratis versus libre</a></li>
+<li><a href="/wiki/Long-term_support" title="Long-term support">Long-term support</a></li>
+<li><a href="/wiki/Open-source_software" title="Open-source software">Open-source software</a></li>
+<li><a href="/wiki/Outline_of_free_software" title="Outline of free software">Outline</a></li>
+<li><a href="/wiki/Software_Package_Data_Exchange" title="Software Package Data Exchange">SPDX</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Comparison_of_open-source_operating_systems" title="Comparison of open-source operating systems">Operating system<br />
+families</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/AROS_Research_Operating_System" title="AROS Research Operating System">AROS</a></li>
+<li><a href="/wiki/Berkeley_Software_Distribution" title="Berkeley Software Distribution">BSD</a></li>
+<li><a href="/wiki/Contiki" title="Contiki">Contiki</a></li>
+<li><a href="/wiki/Darwin_(operating_system)" title="Darwin (operating system)">Darwin</a></li>
+<li><a href="/wiki/ECos" title="ECos">eCos</a></li>
+<li><a href="/wiki/FreeDOS" title="FreeDOS">FreeDOS</a></li>
+<li><a href="/wiki/GNU" title="GNU">GNU</a></li>
+<li><a href="/wiki/Haiku_(operating_system)" title="Haiku (operating system)">Haiku</a></li>
+<li><a href="/wiki/Inferno_(operating_system)" title="Inferno (operating system)">Inferno</a></li>
+<li><a href="/wiki/Linux" title="Linux">Linux</a></li>
+<li><a href="/wiki/Mach_(kernel)" title="Mach (kernel)">Mach</a></li>
+<li><a href="/wiki/MINIX" title="MINIX">MINIX</a></li>
+<li><a href="/wiki/OpenSolaris" title="OpenSolaris">OpenSolaris</a></li>
+<li><a href="/wiki/Plan_9_from_Bell_Labs" title="Plan 9 from Bell Labs">Plan 9</a></li>
+<li><a href="/wiki/ReactOS" title="ReactOS">ReactOS</a></li>
+<li><a href="/wiki/TUD:OS" title="TUD:OS">TUD:OS</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Open-source_software_development" title="Open-source software development">Development</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Basic_For_Qt" title="Basic For Qt">Basic For Qt</a></li>
+<li><a href="/wiki/Eclipse_(software)" title="Eclipse (software)">Eclipse</a></li>
+<li><a href="/wiki/Free_Pascal" title="Free Pascal">Free Pascal</a></li>
+<li><a href="/wiki/FreeBASIC" title="FreeBASIC">FreeBASIC</a></li>
+<li><a href="/wiki/Gambas" title="Gambas">Gambas</a></li>
+<li><a href="/wiki/GNU_Compiler_Collection" title="GNU Compiler Collection">GCC</a></li>
+<li><strong class="selflink">Java</strong></li>
+<li><a href="/wiki/Julia_(programming_language)" title="Julia (programming language)">Julia</a></li>
+<li><a href="/wiki/LLVM" title="LLVM">LLVM</a></li>
+<li><a href="/wiki/Lua_(programming_language)" title="Lua (programming language)">Lua</a></li>
+<li><a href="/wiki/NetBeans" title="NetBeans">NetBeans</a></li>
+<li><a href="/wiki/Open64" title="Open64">Open64</a></li>
+<li><a href="/wiki/OpenSSH" title="OpenSSH">OpenSSH</a></li>
+<li><a href="/wiki/Perl" title="Perl">Perl</a></li>
+<li><a href="/wiki/PHP" title="PHP">PHP</a></li>
+<li><a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python</a></li>
+<li><a href="/wiki/ROSE_(compiler_framework)" title="ROSE (compiler framework)">ROSE</a></li>
+<li><a href="/wiki/Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a></li>
+<li><a href="/wiki/Tcl" title="Tcl">Tcl</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/History_of_free_and_open-source_software" title="History of free and open-source software">History</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/GNU#History" title="GNU">GNU</a></li>
+<li><a href="/wiki/History_of_Haiku_(operating_system)" title="History of Haiku (operating system)">Haiku</a></li>
+<li><a href="/wiki/History_of_Linux" title="History of Linux">Linux</a></li>
+<li><a href="/wiki/Mozilla" title="Mozilla">Mozilla</a>
+<ul>
+<li><a href="/wiki/History_of_Mozilla_Application_Suite" title="History of Mozilla Application Suite">Application Suite</a></li>
+<li><a href="/wiki/History_of_Firefox" title="History of Firefox">Firefox</a></li>
+<li><a href="/wiki/History_of_Mozilla_Thunderbird" title="History of Mozilla Thunderbird">Thunderbird</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Organizations</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android Open Source Project</a></li>
+<li><a href="/wiki/Apache_Software_Foundation" title="Apache Software Foundation">Apache Software Foundation</a></li>
+<li><a href="/wiki/Blender_Foundation" title="Blender Foundation">Blender Foundation</a></li>
+<li><a href="/wiki/The_Document_Foundation" title="The Document Foundation">The Document Foundation</a></li>
+<li><a href="/wiki/Eclipse_Foundation" title="Eclipse Foundation">Eclipse Foundation</a></li>
+<li><a href="/wiki/Free_Software_Foundation" title="Free Software Foundation">Free Software Foundation</a>
+<ul>
+<li><a href="/wiki/Free_Software_Foundation_Europe" title="Free Software Foundation Europe">Europe</a></li>
+<li><a href="/wiki/Free_Software_Foundation_of_India" title="Free Software Foundation of India">India</a></li>
+<li><a href="/wiki/Free_Software_Foundation_Latin_America" title="Free Software Foundation Latin America">Latin America</a></li>
+</ul>
+</li>
+<li><a href="/wiki/FreeBSD_Foundation" title="FreeBSD Foundation">FreeBSD Foundation</a></li>
+<li><a href="/wiki/Freedesktop.org" title="Freedesktop.org">freedesktop.org</a></li>
+<li><a href="/wiki/Free_Software_Movement_of_India" title="Free Software Movement of India">FSMI</a></li>
+<li><a href="/wiki/GNOME_Foundation" title="GNOME Foundation">GNOME Foundation</a></li>
+<li><a href="/wiki/GNU_Project" title="GNU Project">GNU Project</a></li>
+<li><a href="/wiki/Google_Code" title="Google Code" class="mw-redirect">Google Code</a></li>
+<li><a href="/wiki/KDE_e.V." title="KDE e.V.">KDE e.V.</a></li>
+<li><a href="/wiki/Linux_Foundation" title="Linux Foundation">Linux Foundation</a></li>
+<li><a href="/wiki/Mozilla_Foundation" title="Mozilla Foundation">Mozilla Foundation</a></li>
+<li><a href="/wiki/Open_Knowledge_Foundation" title="Open Knowledge Foundation" class="mw-redirect">Open Knowledge Foundation</a></li>
+<li><a href="/wiki/Open_Source_Geospatial_Foundation" title="Open Source Geospatial Foundation">Open Source Geospatial Foundation</a></li>
+<li><a href="/wiki/Open_Source_Initiative" title="Open Source Initiative">Open Source Initiative</a></li>
+<li><a href="/wiki/OpenBSD_Foundation" title="OpenBSD Foundation">OpenBSD Foundation</a></li>
+<li><a href="/wiki/Software_Freedom_Conservancy" title="Software Freedom Conservancy">Software Freedom Conservancy</a></li>
+<li><a href="/wiki/SourceForge" title="SourceForge">SourceForge</a></li>
+<li><a href="/wiki/Symbian_Foundation" title="Symbian Foundation">Symbian Foundation</a></li>
+<li><a href="/wiki/Ubuntu_Foundation" title="Ubuntu Foundation">Ubuntu Foundation</a></li>
+<li><a href="/wiki/VideoLAN" title="VideoLAN">VideoLAN Organization</a></li>
+<li><a href="/wiki/Wikimedia_Foundation" title="Wikimedia Foundation">Wikimedia Foundation</a></li>
+<li><a href="/wiki/X.Org_Foundation" title="X.Org Foundation">X.Org Foundation</a></li>
+<li><a href="/wiki/Xiph.Org_Foundation" title="Xiph.Org Foundation">Xiph.Org Foundation</a></li>
+<li><a href="/wiki/XMPP_Standards_Foundation" title="XMPP Standards Foundation">XMPP Standards Foundation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Free_software_license" title="Free software license">Licenses</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Apache_License" title="Apache License">Apache</a></li>
+<li><a href="/wiki/Artistic_License" title="Artistic License">Artistic</a></li>
+<li><a href="/wiki/Beerware" title="Beerware">Beerware</a></li>
+<li><a href="/wiki/Boost_Software_License" title="Boost Software License" class="mw-redirect">Boost</a></li>
+<li><a href="/wiki/BSD_licenses" title="BSD licenses">BSD</a></li>
+<li><a href="/wiki/CC0" title="CC0" class="mw-redirect">CC0</a></li>
+<li><a href="/wiki/Common_Development_and_Distribution_License" title="Common Development and Distribution License">CDDL</a></li>
+<li><a href="/wiki/GNU_General_Public_License" title="GNU General Public License">GNU GPL</a></li>
+<li><a href="/wiki/GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">GNU LGPL</a></li>
+<li><a href="/wiki/ISC_license" title="ISC license">ISC</a></li>
+<li><a href="/wiki/MIT_License" title="MIT License">MIT</a></li>
+<li><a href="/wiki/Mozilla_Public_License" title="Mozilla Public License">MPL</a></li>
+<li><a href="/wiki/Shared_source#Open_Source_licenses" title="Shared source">Ms-PL/RL</a></li>
+<li><a href="/wiki/WTFPL" title="WTFPL">WTFPL</a></li>
+<li><a href="/wiki/Zlib_License" title="Zlib License">zlib</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">License types<br />
+and standards</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Comparison_of_free_and_open-source_software_licenses" title="Comparison of free and open-source software licenses">Comparison of free and open-source software licenses</a></li>
+<li><a href="/wiki/Contributor_License_Agreement" title="Contributor License Agreement">Contributor License Agreement</a></li>
+<li><a href="/wiki/Copyfree" title="Copyfree">Copyfree</a></li>
+<li><a href="/wiki/Copyleft" title="Copyleft">Copyleft</a></li>
+<li><a href="/wiki/Debian_Free_Software_Guidelines" title="Debian Free Software Guidelines">Debian Free Software Guidelines</a></li>
+<li><a href="/wiki/Definition_of_Free_Cultural_Works" title="Definition of Free Cultural Works">Definition of Free Cultural Works</a></li>
+<li><a href="/wiki/Free_license" title="Free license">Free license</a></li>
+<li><a href="/wiki/The_Free_Software_Definition" title="The Free Software Definition">The Free Software Definition</a></li>
+<li><a href="/wiki/The_Open_Source_Definition" title="The Open Source Definition">The Open Source Definition</a></li>
+<li><a href="/wiki/Open-source_license" title="Open-source license">Open-source license</a></li>
+<li><a href="/wiki/Permissive_free_software_licence" title="Permissive free software licence">Permissive free software licence</a></li>
+<li><a href="/wiki/Public_domain" title="Public domain">Public domain</a></li>
+<li><a href="/wiki/Viral_license" title="Viral license">Viral license</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Challenges</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Binary_blob" title="Binary blob">Binary blob</a></li>
+<li><a href="/wiki/Digital_rights_management" title="Digital rights management">Digital rights management</a></li>
+<li><a href="/wiki/Free_and_open-source_graphics_device_driver" title="Free and open-source graphics device driver">Free and open-source graphics device driver</a></li>
+<li><a href="/wiki/Comparison_of_open-source_wireless_drivers" title="Comparison of open-source wireless drivers">Comparison of open-source wireless drivers</a></li>
+<li><a href="/wiki/Hardware_restriction" title="Hardware restriction">Hardware restrictions</a></li>
+<li><a href="/wiki/License_proliferation" title="License proliferation">License proliferation</a></li>
+<li><a href="/wiki/Mozilla_Corporation_software_rebranded_by_the_Debian_project" title="Mozilla Corporation software rebranded by the Debian project">Mozilla software rebranding</a></li>
+<li><a href="/wiki/Proprietary_software" title="Proprietary software">Proprietary software</a></li>
+<li><a href="/wiki/SCO%E2%80%93Linux_controversies" title="SCO–Linux controversies">SCO–Linux controversies</a></li>
+<li><a href="/wiki/UEFI_Secure_Boot#Secure_boot" title="UEFI Secure Boot" class="mw-redirect">Secure boot</a></li>
+<li><a href="/wiki/Software_patents_and_free_software" title="Software patents and free software">Software patents</a></li>
+<li><a href="/wiki/Open-source_software_security" title="Open-source software security">Software security</a></li>
+<li><a href="/wiki/Trusted_Computing" title="Trusted Computing">Trusted Computing</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Related topics</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="/wiki/The_Cathedral_and_the_Bazaar" title="The Cathedral and the Bazaar">The Cathedral and the Bazaar</a></i></li>
+<li><a href="/wiki/Fork_(software_development)" title="Fork (software development)">Forking</a></li>
+<li><a href="/wiki/Linux_distribution" title="Linux distribution">Linux distribution</a></li>
+<li><a href="/wiki/Microsoft_Open_Specification_Promise" title="Microsoft Open Specification Promise">Microsoft Open Specification Promise</a></li>
+<li><i><a href="/wiki/Revolution_OS" title="Revolution OS">Revolution OS</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2" style="font-weight:bold">
+<div>
+<ul>
+<li><img alt="Wikipedia book" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/16px-Symbol_book_class2.svg.png" title="Wikipedia book" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/23px-Symbol_book_class2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/Symbol_book_class2.svg/31px-Symbol_book_class2.svg.png 2x" data-file-width="180" data-file-height="185" /> <a href="/wiki/Book:Free_and_Open_Source_Software" title="Book:Free and Open Source Software">Book</a></li>
+<li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <a href="/wiki/Category:Free_software" title="Category:Free software">Category</a></li>
+<li><img alt="Commons page" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" title="Commons page" width="12" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /> <a href="//commons.wikimedia.org/wiki/Category:Free_software" class="extiw" title="commons:Category:Free software">Commons</a></li>
+<li><img alt="Portal" src="//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" title="Portal" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" data-file-width="32" data-file-height="28" /> <a href="/wiki/Portal:Free_software" title="Portal:Free software">Portal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
