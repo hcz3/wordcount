@@ -23,6 +23,8 @@ public class testTest {
     @Test
     public void testGetURLContent() throws Exception {
 //
+       assertEquals("equals", "4", String.valueOf(myTest.count(myTest.outTag(myTest.hideMatcher(myTest.getURLContent("http://en.wikipedia.org/wiki/Java_(programming_language)", "gb2312"))),"java")));
+//
 //        assertNotNull("not null", myTest.getURLContent("http://www.baidu.com/", "gb2312"));
 //
 //        assertNotNull("not null", myTest.getURLContent("http://www.google.co.uk/", "gb2312"));
@@ -79,6 +81,8 @@ public class testTest {
         assertEquals("equals", "4", String.valueOf(myTest.count(fileReader("/Users/hczhang/Documents/workspace/demo1/word/tests/src1.txt"), "java")));
 
         assertEquals("equals", "6", String.valueOf(myTest.count(fileReader("/Users/hczhang/Documents/workspace/demo1/word/tests/src2.txt"), "java")));
+
+        assertEquals("equals", "6", String.valueOf(myTest.count(myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/test.html")), "java")));
 
         assertEquals("equals", "17", String.valueOf(myTest.count(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/1.txt"), "java")));
 

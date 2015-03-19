@@ -2,6 +2,7 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLConnection;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,26 +13,76 @@ import java.util.regex.Pattern;
 
 public class test {
     public static String getURLContent(String urlString, String encoding) {
-        String line;
-        StringBuffer content = new StringBuffer();
+//        String line;
+//        StringBuffer content = new StringBuffer();
+//        try {
+//
+//            URL url = new URL(urlString);
+//
+//            HttpURLConnection urlConnection = (HttpURLConnection) url
+//                    .openConnection();
+//            BufferedReader reader = new BufferedReader(new InputStreamReader(
+//                    urlConnection.getInputStream()));
+//            while ((line = reader.readLine()) != null) {
+//                content.append(line);
+//            }
+//        }
+//        catch (MalformedURLException e) {
+//            System.err.println(e);
+//        } catch (IOException e) {
+//            System.err.println(e);
+//        }
+//        return content.toString();
+        URL url;
+        String content = null;
         try {
-
-            URL url = new URL(urlString);
-
-            HttpURLConnection urlConnection = (HttpURLConnection) url
-                    .openConnection();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(
-                    urlConnection.getInputStream()));
-            while ((line = reader.readLine()) != null) {
-                content.append(line);
+            // Download URL content
+            url = new URL(urlString);
+            URLConnection connection = url.openConnection();
+            BufferedReader bufferReader = new BufferedReader(new InputStreamReader(
+                    connection.getInputStream()));
+            String input;
+            // Save the downloaded content to local file name
+            String fileName = "test.html";
+            File localFile = new File(fileName);
+            if (!localFile.exists()) {
+                localFile.createNewFile();
             }
+            FileWriter fileWriter = new FileWriter(localFile.getAbsoluteFile());
+            BufferedWriter bufferWriter = new BufferedWriter(fileWriter);
+            while ((input = bufferReader.readLine()) != null) {
+                                bufferWriter.write(input+"\n");
+            }
+            bufferWriter.close();
+            bufferReader.close();
+            System.out.println("Saving the content is Done");
+            content = fileReader(fileName);
+
+        } catch (MalformedURLException exception) {
+            exception.printStackTrace();
+        } catch (IOException exception) {
+            exception.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        catch (MalformedURLException e) {
-            System.err.println(e);
-        } catch (IOException e) {
-            System.err.println(e);
-        }
+
         return content.toString();
+
+    }
+
+    public static String fileReader(String fileName) throws Exception{
+        File file = new File(fileName);
+
+        StringBuilder sb = new StringBuilder();
+        String s;
+        BufferedReader br = new BufferedReader(new FileReader(file));
+
+        while( (s = br.readLine()) != null) {
+            sb.append(s + "\n");
+        }
+
+        br.close();
+        return sb.toString();
     }
 
     public static int subCounter(String str1, String str2) {
