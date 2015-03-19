@@ -1,0 +1,11 @@
+# result should be 6
+Be noticed that in English, two words can be connected by hyphen to make a new notation.
+So we also have to count the case.
+
+Example
+
+A well-known unofficial Java-like software platform is the Android software platform, which allows the use of Java 6 and some java 7 features, uses a different standard library (Apache Harmony reimplementation), different bytecode language and different virtual machine, and is designed for low-memory devices such as smartphones and tablet computers.
+
+The Android operating system makes extensive use of Java-related technology.
+
+On November 13, 2006, Sun released much of Java as free and open-source software, (FOSS), under the terms of the GNU General Public License (GPL). On May 8, 2007, Sun finished the process, making all of Java's core code available under free software/open-source distribution terms, aside from a small portion of code to which Sun did not hold the copyright.[26]

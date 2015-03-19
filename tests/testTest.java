@@ -22,12 +22,10 @@ public class testTest {
 
     @Test
     public void testGetURLContent() throws Exception {
-//
-       assertEquals("equals", "4", String.valueOf(myTest.count(myTest.outTag(myTest.hideMatcher(myTest.getURLContent("http://en.wikipedia.org/wiki/Java_(programming_language)", "gb2312"))),"java")));
-//
-//        assertNotNull("not null", myTest.getURLContent("http://www.baidu.com/", "gb2312"));
-//
-//        assertNotNull("not null", myTest.getURLContent("http://www.google.co.uk/", "gb2312"));
+
+        assertNotNull("not null", myTest.getURLContent("http://www.baidu.com/", "gb2312"));
+
+        assertNotNull("not null", myTest.getURLContent("http://www.google.co.uk/", "gb2312"));
 
     }
 
@@ -46,10 +44,6 @@ public class testTest {
     @Test
     public void testOutTag() throws Exception {
 
-        // Expected: 5<6, 7>6 Actual: 56
-        //assertEquals("remove tags", "5<6, 7>6", myTest.outTag("<br>5<6, 7>6</br>"));
-
-//        assertEquals("remove tags", "\n\n\n\n", myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/yincang.txt")));
 
     }
 
@@ -71,43 +65,38 @@ public class testTest {
 
     @Test
     public void testSubCounter() throws Exception {
-//        assertEquals("equals", "0", String.valueOf(myTest.subCounter("j a v a ", "java")));
+        assertEquals("equals", "0", String.valueOf(myTest.count("j a v a ", "java")));
 
-        // Test the keyword in hidden blocks
-        //assertEquals("equals", "20", String.valueOf(myTest.outTag(myTest.hideMatcher(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/hide.txt")))));
+        // Test some special characters
+        assertEquals("equals", "2", String.valueOf(myTest.count("The Java® Language Specification (Java SE 8 ed.).", "java")));
 
+        assertEquals("equals", "1", String.valueOf(myTest.count(" 1.2 Design Goals of the Java™ Programming Language", "java")));
 
         //Test src1.txt and src2.txt
         assertEquals("equals", "4", String.valueOf(myTest.count(fileReader("/Users/hczhang/Documents/workspace/demo1/word/tests/src1.txt"), "java")));
 
         assertEquals("equals", "6", String.valueOf(myTest.count(fileReader("/Users/hczhang/Documents/workspace/demo1/word/tests/src2.txt"), "java")));
 
-        assertEquals("equals", "6", String.valueOf(myTest.count(myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/test.html")), "java")));
+        // There is one java word in <head></head>, but removed from main function, so here for the test it is 305 + 1
+        assertEquals("equals", "306", String.valueOf(myTest.count(myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/test.html")), "java")));
 
-        assertEquals("equals", "17", String.valueOf(myTest.count(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/1.txt"), "java")));
-
+        // Test each hidden block
         assertEquals("equals", "11", String.valueOf(myTest.count(myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/hiddenBlock1.txt")), "java")));
 
         assertEquals("equals", "5", String.valueOf(myTest.count(myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/hiddenBlock2.txt")), "java")));
 
         assertEquals("equals", "1", String.valueOf(myTest.count(myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/hiddenBlock3.txt")), "java")));
 
-        assertEquals("equals", "305", String.valueOf(myTest.count(myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/pagesource.txt")), "java")));
-
+        // test if the table title (shown) is removed
         assertEquals("equals", "16", String.valueOf(myTest.count(myTest.outTag(myTest.hideMatcher(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/pagesource.txt"))), "java")));
 
-        assertEquals("equals", "16", String.valueOf(myTest.count(myTest.outTag(myTest.hideMatcher(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/123.html"))), "java")));
 
-        //assertEquals("equals", "0", String.valueOf(myTest.count(myTest.outTag(myTest.hideMatcher(myTest.getURLContent("http://en.wikipedia.org/wiki/Java_(programming_language)", "UTF-8"))), "java")));
-
-
+        // There is one java word in <head></head>, but removed from main function, so here for the test it is 305 + 1
+        assertEquals("equals", "306", String.valueOf(myTest.count(myTest.outTag(fileReader("/Users/hczhang/Documents/workspace/demo1/word/src/pagesource.txt")), "java")));
 
 
-//        assertEquals("equals", "0", String.valueOf(myTest.subCounter
-//                (myTest.outTag(myTest.getURLContent("http://www.google.com/", "gb2312")), "java")));
-//
-//        assertEquals("just-in-time", "3", String.valueOf(myTest.subCounter
-//                (myTest.outTag(myTest.getURLContent("http://en.wikipedia.org/wiki/Java_(programming_language)", "gb2312")), "just-in-time")));
+        // test if it is correct when retrieving from the URL
+        assertEquals("equals", "16", String.valueOf(myTest.count(myTest.outTag(myTest.hideMatcher(myTest.getURLContent("http://en.wikipedia.org/wiki/Java_(programming_language)", "gb2312"))),"java")));
 
     }
 

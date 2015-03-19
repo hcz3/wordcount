@@ -1,5 +1,4 @@
 import java.io.*;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
@@ -12,27 +11,10 @@ import java.util.regex.Pattern;
  */
 
 public class test {
+
+    // get the URL content and save it as a local file, easy for observation
     public static String getURLContent(String urlString, String encoding) {
-//        String line;
-//        StringBuffer content = new StringBuffer();
-//        try {
-//
-//            URL url = new URL(urlString);
-//
-//            HttpURLConnection urlConnection = (HttpURLConnection) url
-//                    .openConnection();
-//            BufferedReader reader = new BufferedReader(new InputStreamReader(
-//                    urlConnection.getInputStream()));
-//            while ((line = reader.readLine()) != null) {
-//                content.append(line);
-//            }
-//        }
-//        catch (MalformedURLException e) {
-//            System.err.println(e);
-//        } catch (IOException e) {
-//            System.err.println(e);
-//        }
-//        return content.toString();
+
         URL url;
         String content = null;
         try {
@@ -55,7 +37,6 @@ public class test {
             }
             bufferWriter.close();
             bufferReader.close();
-            System.out.println("Saving the content is Done");
             content = fileReader(fileName);
 
         } catch (MalformedURLException exception) {
@@ -70,6 +51,7 @@ public class test {
 
     }
 
+    // read the file from local source
     public static String fileReader(String fileName) throws Exception{
         File file = new File(fileName);
 
@@ -85,76 +67,64 @@ public class test {
         return sb.toString();
     }
 
-    public static int subCounter(String str1, String str2) {
-        int counter = 0;
-        for (int i = 0; i <= str1.length() - str2.length(); i++) {
-            if (str1.substring(i, i + str2.length()).equalsIgnoreCase(str2)) {
-                if(!str1.substring(i + str2.length(), i + str2.length() + 1).matches("[a-zA-Z]*")) {
-                    counter++;
 
-                }
-            }
-        }
-        return counter;
-
-    }
-
+    // whether the character is letter
     public static boolean isletter(char ch){
         if((ch >='A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')){
             return true;
-        }else{
+        } else {
+            return false;
+        }
+    }
+
+    // whether the characters are equal
+    public static boolean isequal(char ch1, char ch2){
+
+        if(ch1 == ch2 || ch1 == ch2 + 32 || ch1 == ch2 - 32){
+            return true;
+        } else {
             return false;
         }
     }
 
 
-   public static boolean isequal(char ch1, char ch2){
-
-        if(ch1 == ch2 || ch1 == ch2 + 32 || ch1 == ch2 - 32){
-            return true;
-        }else{
-            return false;
-        }
-   }
-
-
+    // count the number of keywords
     public static int count(String str1, String str2) {
         int counter = 0;
         int i, j;
         char arr1[] = str1.toCharArray();
         char arr2[] = str2.toCharArray();
-        for(i=0;i<arr1.length;i++){
-            if(isequal(arr1[i], arr2[0])){
-                for(j=0;j<str2.length();j++){
-                    if(!isequal(arr1[i+j],arr2[j])){
+        for(i = 0; i < arr1.length; i++){
+            if(isequal(arr1[i], arr2[0])) {
+                for(j = 0; j < str2.length(); j++) {
+                    if(!isequal(arr1[i + j], arr2[j])) {
                         break;
                     }
                 }
-                if(j==str2.length()&&!isletter(arr1[i+j])){
+                if(j == str2.length() && !isletter(arr1[i + j])) {
                     counter++;
                 }
             }
         }
-
         return counter;
 
     }
 
-
-
+    // remove unuseful tags
     public static String outTag(String s) {
         s = s.replaceAll("<script>[\\s\\S]*?</script>", "");
-        s = s.replaceAll("class=\"printfooter\"[\\s\\S]*?</div>", "");
         s = s.replaceAll("<[^>]+>", "");
         s = s.replaceAll("java.util.regex.Matcher","");
 
         return s;
     }
 
-
+    // render the hidden content
     public static String hideMatcher(String s) {
         String dist = null;
         StringBuffer sb = new StringBuffer();
+
+        //render the block content
         Pattern p = Pattern.compile("<table[^>]+autocollapse[^>]+>[\\s\\S]*?</table>");
         Matcher m = p.matcher(s);
         while(m.find()) {
@@ -163,6 +133,7 @@ public class test {
             dist = sb.toString();
         }
 
+        // remove the block title
         dist = dist.replaceAll("<div[^>]+font-size:110%[^>]+>[\\s\\S]*?</div>","");
         return dist;
     }
@@ -177,19 +148,23 @@ public class test {
         }
 
         String content, hideContent;
-        int start;
-        int end;
+        int start, end;
+        int hide, show, total;
         content = getURLContent(args[0], "gb2312");
         start = content.indexOf("<body");
         end = content.indexOf("</body");
-        System.out.println(start);
-        System.out.println(end);
+        System.out.println("Begin Index: " + start);
+        System.out.println("End Index: " + end);
         content = content.substring(start, end);
         hideContent = hideMatcher(content);
         content = outTag(content);
         hideContent = outTag(hideContent);
-        System.out.println("In hidden blocks, the number of "+args[1]+" is "+count(hideContent, args[1]));
-        System.out.println("The number of "+args[1]+" is "+count(content, args[1]));
+        hide = count(hideContent, args[1]);
+        total = count(content, args[1]);
+        show = total - hide;
+        System.out.println("Hidden " + args[1]+" is " + hide);
+        System.out.println("Shown " + args[1]+" is " + show);
+        System.out.println("The total number of " + args[1] + " is " + total);
     }
 }
 

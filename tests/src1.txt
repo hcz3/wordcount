@@ -1,0 +1,4 @@
+# result would be 4
+"Java" can be an island of Indonesia
+Java can be programming Language
+Javascript is another language, but has nothing to do with java or Java
