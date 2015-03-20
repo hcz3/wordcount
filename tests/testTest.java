@@ -49,7 +49,7 @@ public class testTest {
     }
 
     @Test
-    public void testSubCounter() throws Exception {
+    public void testCount() throws Exception {
         assertEquals("equals", "0", String.valueOf(myTest.count("j a v a ", "java")));
 
         // Test some special characters
