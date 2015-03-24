@@ -66,18 +66,18 @@ public class testTest {
         assertEquals("equals", "306", String.valueOf(myTest.count(myTest.outTag(fileReader("src/test.html")), "java")));
 
         // Test each hidden block
-        assertEquals("equals", "11", String.valueOf(myTest.count(myTest.outTag(fileReader("src/hiddenBlock1.txt")), "java")));
+        assertEquals("equals", "11", String.valueOf(myTest.count(myTest.outTag(fileReader("tests/hiddenBlock1.txt")), "java")));
 
-        assertEquals("equals", "5", String.valueOf(myTest.count(myTest.outTag(fileReader("src/hiddenBlock2.txt")), "java")));
+        assertEquals("equals", "5", String.valueOf(myTest.count(myTest.outTag(fileReader("tests/hiddenBlock2.txt")), "java")));
 
-        assertEquals("equals", "1", String.valueOf(myTest.count(myTest.outTag(fileReader("src/hiddenBlock3.txt")), "java")));
+        assertEquals("equals", "1", String.valueOf(myTest.count(myTest.outTag(fileReader("tests/hiddenBlock3.txt")), "java")));
 
         // test if the table title (shown) is removed
-        assertEquals("equals", "16", String.valueOf(myTest.count(myTest.outTag(myTest.hideMatcher(fileReader("src/pagesource.txt"))), "java")));
+        assertEquals("equals", "16", String.valueOf(myTest.count(myTest.outTag(myTest.hideMatcher(fileReader("tests/pagesource.txt"))), "java")));
 
 
         // There is one java word in <head></head>, but removed from main function, so here for the test it is 305 + 1
-        assertEquals("equals", "306", String.valueOf(myTest.count(myTest.outTag(fileReader("src/pagesource.txt")), "java")));
+        assertEquals("equals", "306", String.valueOf(myTest.count(myTest.outTag(fileReader("tests/pagesource.txt")), "java")));
 
 
         // test if it is correct when retrieving from the URL
